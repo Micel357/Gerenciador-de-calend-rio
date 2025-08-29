@@ -24,7 +24,7 @@ public class CalendarView {
         System.out.print("Opção: ");
     }
 
-    // ✅ Corrigido aqui
+    // 
     public int getUserOption() {
         try {
             return Integer.parseInt(scanner.nextLine());
