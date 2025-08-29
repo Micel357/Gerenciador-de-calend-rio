@@ -22,8 +22,7 @@ public class CalendarController {
         boolean running = true;
         while (running) {
             view.showMenu();
-            int option = view.getUserOption(); // ✅ Corrigido: nome do método estava incorreto
-
+            int option = view.getUserOption(); // 
             switch (option) {
                 case 1:
                     view.showEvents(model.getEvents());
